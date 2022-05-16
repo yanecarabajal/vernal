@@ -17,6 +17,8 @@
 
 body {
     background-color: rgba(19, 19, 19, 255);
+    
+    
 }
 
 /***ESTILOS HEADER***/
@@ -25,8 +27,8 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 155px;
-    margin: 0px 0px 60px 0px;
+    height: 150px;
+    margin: 0px 0px 10px 0px;
 }
 
 header img {
@@ -40,7 +42,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 62vh;
+    height: 100vh;
 
 
 }
@@ -49,18 +51,18 @@ header img {
 .circulo {
     width: 146px;
     position: absolute;
-    top: -125px;
+    top: -85px;
     left: -1px;
 
 }
 
 .card {
     background-color: rgba(40, 40, 40, 255);
-    height: 555px;
-    width: 371px;
+    height: 590px;
+    width: 80%;
     border-radius: 15% 0 15% 0;
     font-family: "lexendDecaRegular";
-    padding: 25px;
+    padding: 40px;
     z-index: 1;
 
 }
@@ -81,7 +83,7 @@ header img {
 
 .card-body h1 {
     color: #974cf9;
-    font-size: 3.4rem;
+    font-size: 3.8rem;
 
 }
 
@@ -119,7 +121,7 @@ header img {
 
 .flex-circulo {
     position: absolute;
-    bottom: -89px;
+    bottom: -59px;
     right: -49px;
     width: 200px;
     height: 200px;
@@ -129,14 +131,10 @@ header img {
 }
 
 /***FOOTER***/
-
-.hr-footer{
-    visibility: hidden
-}
 footer {
 
     width: 100%;
-    height: 9px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,33 +163,19 @@ footer {
 
 @media screen and (min-width: 900px) {
 
-    header{
-        height: 120px;
-    }
-
     header img {
-        width: 140px;
-    }
-
-    .flex {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 37vh;
-    
-    
+        width: 150px;
     }
 
     .circulo{
-        width: 170px;
+        width: 198px;
         top: -33px;
         left: 22px;
 
     }
     .card {
-        height: 240px;
-        width: 670px;
+        height: 270px;
+        width: 730px;
         border-radius: 105px 0px 105px 0px;
         display: flex;
         justify-content: space-around;
@@ -234,51 +218,41 @@ footer {
     }
 
     .flex-circulo{
-        bottom: -100px;
+        bottom: 90px;
         right: 80px;
         width: 280px;
         height: 280px;
-    }
-
-    .hr-footer{
-        visibility: visible;
-        border-width: 0;
-        height: 2px;
-        width: 90%;
-        margin-right: 10%;
-        margin-left: 5%;
-        background-color: white;
     }
 
 
     footer {
 
         width: 100%;
-        height: 80px;
+        height: 60px;
         display: flex;
-        justify-content:space-around;
-        align-content: center;
+        justify-content:space-between;
         flex-direction: row;
-       }
+        border-top: 1.5px solid rgb(255, 255, 255);
+        margin: 20px 20px 20px 20px ;
+    
+    
+    }
 
 
-  .imagen-footer{
-        visibility:visible;
-        margin-right: 180px;
-        
-        
-  }
-  
+   /* .imagen-footer{
+        visibility: hidden;
+        width: auto;
+    }*/
 
     .texto-footer p {
         
-        font-size: 0.8rem;
+        font-size: 1rem;
        
     }
     
     .texto-footer-2 p {
         
-        font-size: 0.8rem;
+        font-size: 1rem;
        
     
     }
