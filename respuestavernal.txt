@@ -1,0 +1,7 @@
+sacar los br 
+utilizar vh en height
+vw ---> mide el ancho de la pantalla en la que estoy 
+trabajar con bordes 
+contenedor 
+
+textos vw
